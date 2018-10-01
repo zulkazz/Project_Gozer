@@ -1,19 +1,20 @@
 body, html {
   height: 100%;
+  margin: 0;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: bisque;
   width: 100%;
-  height: 50px;
+  height: 170px;
   margin: 0;
 }
 
 nav {
   background-color:black;
   width: 100%;
-  height: 50px;
   margin: 0;
+  
 }
 
 main {
@@ -29,6 +30,55 @@ footer {
   height: 50px;
 }
 
+div.header {
+  text-align: center;
+  background: url("../foto/header1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.4;
+}
+
+h1 {
+  font-family: fantasy;
+  color: black;
+  font-size: 50px;
+  margin: 0;
+  padding: 30px;
+}
+
+div.nav ul {
+  text-align: center;
+  color: white;
+  list-style: none;
+  margin: auto auto; 
+  padding: 20px;
+  
+}
+
+div.nav li {
+  display: inline-block;
+  font-size: 25px;
+  margin: 5px 5px;
+}
+
+div.nav li a {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+div.nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+div.nav li a:visited {
+  #color: inherit;
+}
+
+
 
 div.bpicture {
   background: url("../foto/header.jpg");
@@ -38,3 +88,6 @@ div.bpicture {
   height: 100%;
   opacity: 0.4;
 }
+
+
+
