@@ -1,0 +1,35 @@
+nav {
+  background-color:black;
+  width: 100%;
+  margin: 0;
+}
+
+nav div.nav ul {
+  text-align: center;
+  color: white;
+  list-style: none;
+  margin: auto auto; 
+  padding: 20px;
+  
+}
+
+nav div.nav li {
+  display: inline-block;
+  font-size: 25px;
+  margin: 5px 5px;
+}
+
+nav div.nav li a {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+nav div.nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav div.nav li a, a:visited {
+  color: white;
+}

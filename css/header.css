@@ -1,0 +1,24 @@
+header {
+  background-color: bisque;
+  width: 100%;
+  height: 170px;
+  margin: 0;
+}
+
+header div.bg-header {
+  text-align: center;
+  background: url("../foto/header1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.4;
+}
+
+header h1 {
+  font-family: fantasy;
+  color: black;
+  font-size: 50px;
+  margin: 0;
+  padding: 30px;
+}

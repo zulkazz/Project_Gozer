@@ -1,0 +1,19 @@
+address p.dane {
+  text-align: left;
+}
+
+address p.mail {
+  text-align: right;
+  margin-bottom: auto;
+  margin-top: auto;
+  vertical-align: middle;
+}
+  
+address {
+  text-align: center; 
+}
+
+address p {
+  display: inline-block;
+  margin: 20px 100px;
+}
